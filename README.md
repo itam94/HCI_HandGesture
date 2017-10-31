@@ -1,2 +1,2 @@
 # HCI_HandGesture
-Student project for recognising hand movement gestures.
+Students project for recognising hand movement gestures.
