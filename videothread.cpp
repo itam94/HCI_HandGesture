@@ -12,7 +12,7 @@ void videothread::videoInit()
 {
     //capture.open(fname.toStdString());
 
-    capture.open(1);
+    capture.open(0);
     if(capture.isOpened() == false)
     {
         qDebug()<<"No camera2";

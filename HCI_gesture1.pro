@@ -21,13 +21,18 @@ HEADERS  += mainwindow.h \
 
 FORMS    += mainwindow.ui
 
-
+unix {
     INCLUDEPATH += /usr/local/include/opencv
     LIBS += -L/usr/local/lib \
     -lopencv_core\
     -lopencv_highgui \
     -lopencv_imgproc \
     -lopencv_features2d \
-    -lopencv_calib3d
--lopencv_videoio
+    -lopencv_calib3d \
+ -lopencv_videoio
+}
+
+win64{
+//yours
+}
 
