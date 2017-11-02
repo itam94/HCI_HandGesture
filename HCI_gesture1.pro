@@ -32,7 +32,13 @@ unix {
  -lopencv_videoio
 }
 
-win64{
-//yours
+win32{
+    INCLUDEPATH += D:\opencv\build\include\opencv \
+                    D:\opencv\build\include\opencv2
+    LIBS += "D:\opencv\bin\bin\libopencv_videoio331.dll" \
+        "D:\opencv\bin\bin\libopencv_core331.dll" \
+        "D:\opencv\bin\bin\libopencv_highgui331.dll" \
+        "D:\opencv\bin\bin\libopencv_calib3d331.dll" \
+        "D:\opencv\bin\bin\libopencv_imgproc331.dll"
 }
 
